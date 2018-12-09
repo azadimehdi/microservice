@@ -25,6 +25,8 @@ namespace ViewComponents
         string a = "1";
         string a1 = "1";
         string a1 = "2";
+        string a1 = "2";
+
 
 
 
