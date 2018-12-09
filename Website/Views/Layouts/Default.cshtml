@@ -1,0 +1,14 @@
+<main class="Azadi-Service" data-root="@Request.RootUrl()">
+    <input type="hidden" id="page_meta_title" value="@ViewData["Title"]" />
+    <div class="container-fluid">
+        <div class="content">@RenderBody()</div>
+    </div>
+    @Html.RegisterDynamicScriptFiles()
+    @Html.DevCommandsWidget()
+    @Html.RegisterStartupActions()
+</main>
+
+<head>
+    <title>@ViewData["Title"]</title>
+    <link rel='stylesheet' href="@Request.GetAbsoluteUrl("/styles/Styles.css")" type='text/css' />
+</head>
