@@ -23,6 +23,8 @@ namespace ViewComponents
     {
         // Here you can add helper methods to all your cshtml views.
         string a = "1";
+        string a1 = "1";
+
 
     }
 }
