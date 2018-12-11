@@ -11,7 +11,7 @@
 
     public class SharedActionsController : BaseController
     {
-        [Route("error")]
+        [Route("error1")]
         public ActionResult Error() => View("error");
 
         [Route("error/404")]
@@ -22,7 +22,7 @@
         {
             return Json(await new FileUploadService().TempSaveUploadedFile(files[0]));
         }
-		
+
         [Route("healthcheck")]
         public async Task<ActionResult> HealthCheck()
         {
