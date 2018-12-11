@@ -11,7 +11,7 @@
 
     public class SharedActionsController : BaseController
     {
-        [Route("error1 1")]
+        [Route("error1 13")]
         public ActionResult Error() => View("error");
 
         [Route("error/404")]
