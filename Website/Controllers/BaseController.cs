@@ -22,7 +22,7 @@ namespace ViewComponents
     public abstract class ViewComponent : Olive.Mvc.ViewComponent
     {
         // Here you can add helper methods to all your cshtml views.
-        string a = "1";
+        string a = "11";
         string a1 = "1";
         string a1 = "2211";
         string a1 = "21111111111111111";
