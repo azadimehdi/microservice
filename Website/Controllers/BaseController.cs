@@ -24,7 +24,7 @@ namespace ViewComponents
         // Here you can add helper methods to all your cshtml views.
         string a = "1";
         string a1 = "1";
-        string a1 = "2";
+        string a1 = "22";
         string a1 = "2111111111111111";
 
 
